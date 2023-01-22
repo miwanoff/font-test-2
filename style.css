@@ -3,7 +3,16 @@
   src: url(fonts/Amellia.ttf); /* Путь к файлу со шрифтом */
 }
 
+@font-face {
+  font-family: "Mega Surprise"; /* Гарнитура шрифта */
+  src: url("fonts/Mega Surprise.ttf"); /* Путь к файлу со шрифтом */
+}
+
 h1 {
   color: rgb(33, 188, 56);
   font-family: Amellia, cursive;
+}
+
+h2 {
+  font-family: "Mega Surprise", serif;
 }
