@@ -1,3 +1,9 @@
-h1{
-    color: rgb(33, 188, 56);
+@font-face {
+  font-family: Amellia; /* Гарнитура шрифта */
+  src: url(fonts/Amellia.ttf); /* Путь к файлу со шрифтом */
+}
+
+h1 {
+  color: rgb(33, 188, 56);
+  font-family: Amellia, cursive;
 }
